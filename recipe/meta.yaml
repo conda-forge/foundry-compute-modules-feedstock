@@ -1,5 +1,5 @@
 {% set name = "foundry-compute-modules" %} 
-{% set version = "0.30.0" %}
+{% set version = "0.31.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/palantir/python-compute-module/archive/{{ version }}.tar.gz
-  sha256: 5d547f27be1f86fdf8bd5f37e58e56fef0d1ab0f6f10e8a4bede75b6fffa7594
+  sha256: 51a85e6d911c7601c6b04d0cdfb12169371ad148ad4c695b21420fe39c02980a
 
 build:
   noarch: python
